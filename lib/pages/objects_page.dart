@@ -51,9 +51,13 @@ class ObjectsPage extends StatelessWidget {
                           ),
                         ],
                       ),
-                      child: Text(
-                        "${objectData.id}. ${objectData.name}",
-                        style: semibold16Black,
+                      child: Column(
+                        children: [
+                          Text(
+                            "${objectData.id}. ${objectData.name}",
+                            style: semibold16Black,
+                          ),
+                        ],
                       ),
                     );
                   },
